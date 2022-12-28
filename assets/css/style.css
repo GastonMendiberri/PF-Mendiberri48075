@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@font-face {
+    font-family: Ubuntu-Medium;
+    src: url(../fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+ /*INICIO*/
+
+.container-fluid{
+    background-color: rgb(18,34,49);
+    width: 100%;
+    height: 100%;    
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.nav-item{
+    margin-inline: 20px;
+}
+
+.body{
+    background-color: rgb(18,34,49);
+    font-family: Ubuntu-Medium;
+    }
+
+.colorFonInicio{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(18,34,49);
+  
+}
+
+ .TitOfertas{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    display: block;
+    font-size: 50px;
+    background-color: rgb(18,34,49);
+    color: white;
+}
+
+ul  li{
+    display: inline-block;
+}
+
+ul li a {    
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 20px;
+
+}
+
+.ImagenPropaganda{
+    width: 100%;
+    height: 350px;    
+}
+
+/*ANIMACION*/
+
+main img{
+    transition: 2s;
+}
+
+.ImagenPropaganda:hover{
+    transform: scale(1.05);
+ 
+}
+
+.InicioGrid{
+    justify-items: center;
+    background-color: rgb(18,34,49);
+    padding: 30px;
+    padding-top: 30px;
+    gap: 15px;  
+    max-width: 1100;
+    margin: 30px auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+}
+
+/*PRODUCTOS*/
+.colorFondoProd{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(18,34,49);
+}
+
+.TitCategorias{
+    text-align: center;
+    width: 100%;
+    padding: 13px;
+    display: block;
+    font-size: 45px;
+    background-color: rgb(18,34,49);
+    color: white;
+}
+
+.Enlace1{
+    display: flex;
+    justify-content: center;
+}
+
+.Lenovo{
+    width: 400px;
+    border: solid 2px;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+.Xiaomi{
+    width: 400px;
+    border: solid 2px;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}    
+.Televisor-LG{
+    width: 400px;
+    border: solid 2px;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.ImagenProd{
+    width: 100%;
+}
+
+.Titulo{
+    text-align: center;
+    margin: 8px;
+    color: white;
+    
+}
+
+.Descripcion{
+    margin: 10px;
+    color: white;
+}
+
+.Button{
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(18,34,49);
+    color: white;
+}
+
+    
+
+/*SERVICIO TECNICO*/
+.colorFondoServ{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(18,34,49);
+ 
+}
+
+.TituloSerTec{
+    width: 100%;
+    height: 60px;
+    padding: 13px;
+    text-align: center;
+    display: block;
+    border: none;
+    font-size: 50px;
+    background-color: rgb(18,34,49);
+    color: white;
+}
+
+.IngMarca{
+    font-size: 18px;
+    border-style: solid; 
+}
+
+.BtnConsultar{
+    font-size: 18px;
+    border-style: solid;
+    
+}
+
+.AteCliente{
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+.DiasHorarios{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.Tamaño{
+    display: inline;  
+}    
+
+/*UBICACION*/
+.colorNavUbicacion{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(18,34,49);
+}
+
+.TituloUbi{
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    font-size: 55px;
+    background-color: rgb(18,34,49);
+    color: white;
+}
+
+.Locales{
+    text-align: center;
+    color: white;
+}
+
+/*ENVIOS*/
+
+.body{
+    background-color: rgb(18,34,49);
+}
+
+.TituloEnvio{
+    text-align: center;    
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    font-size: 50px;
+    background-color: rgb(18,34,49);
+    color: white;
+}
+
+.colorFondoEnvios{
+    width: 100%;
+    height: 100px;
+  
+}
+/*
+.FormSendNegrita{
+    font-weight: bold;
+    font-size: 17px;
+}
+*/
+
+.FormSendNegrita{
+    background-color: rgb(18,34,49);
+    padding: 30px;
+    gap: 15px;  
+    max-width: 100%;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "NombreyApellido1 DNI1 Provincia1"
+                         "Domicilio1 Email1 Telefono1"
+                         "CodigoPostal1 mensaje1 BtnEnviar1"
+                         ;     
+}
+
+.BtnEnviar{
+    width: 168px;
+    font-weight: bold;
+    font-size: 30px;
+    border-style: solid;
+    
+}
+
+.OcaCorreo{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(18,34,49);
+    color: white;
+}
+
+.TituloEnlace{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(18,34,49);
+    color: white;
+}
+
+.ComoUsarOca{
+    text-align: center;
+    padding: 10px;
+    height: 40px;
+    font-size: 30px;
+    color: white;   
+}
+
+.Enlace1{
+   text-align: center; 
+   list-style-type: none;
+
+}
+
+.Enlace2{
+    text-align: center;
+    width: 20%;
+    height: 20px;
+    padding: 10px;
+    border-style: inset;
+    font-size: 20px;
+    background-color: rgb(18,34,49);
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/*FOOTER*/
+
+.ColorFondoFooter{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(18,34,49);}
+
+.Twitter{
+    width: 32px;
+}
+
+.Instagram{
+    width: 32px; 
+}
+
+.Redes{
+    text-align: center;
+}
+
+.TexDerechos{
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
+    font-size: 12px;
+    color: grey;
+}
+
+.TextredSociales{
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: grey;  
+}
