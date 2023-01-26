@@ -9,9 +9,13 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
-<body class="body">
+<body class="Body">
+  <div class="NavEstilo">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
+          <div class="LogoNav">
+            <img class="Logo" src="../img/LOGO1.jpg" alt="Logo">
+            </div>
           <a class="navbar-brand" href="../index.html">Inicio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,13 +38,15 @@
           </div>
         </div>
       </nav>
-    <header>
-            <h1 class="TituloSerTec">¿Que necesitas reparar?</h1>
+    </div>
+    <div class="RespoHeaderServTec">  
+    <header class="Tamaño">
+            <h1 class="Titulos">¿Que necesitas reparar?</h1>
             <br>
-            <div class="Enlace1">
+            <div class="BarraCompletar">
             <label>
                 <input class="IngMarca" type="text"  placeholder="Ingresar marca" required >
-                <input class="BtnConsultar" type="submit" value="Consultar">
+                <input class="BTN-Consultar" type="submit" value="Consultar">
             </div>    
             </label>
                 <br>
@@ -55,20 +61,25 @@
               </div>
               <br>
     </header>
-    <main class="Tamaño">
+   </div>
+    <div class="RespoMainSerTec">
+      <main class="MainServTec">
         <div class="container border text-center" style="width: 30%;">
           <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="../img/MICROONDAS2.jpg" class="d-block w-100" alt="...">
+                <img src="../img/MONOPATIN.webp" class="d-block w-100" alt="Monopatin">
               </div>
               <div class="carousel-item">
-                <img src="../img/heladera2.webp" class="d-block w-100" alt="...">
+                <img src="../img/LAVARROPAS.webp" class="d-block w-100" alt="Lavarropas">
               </div>
               <div class="carousel-item">
-                <img src="../img/CELULAR.jpg" class="d-block w-100" alt="...">
+                <img src="../img/CELULAR.webp" class="d-block w-100" alt="Celulares">
               </div>
-            </div>
+              <div class="carousel-item">
+                <img src="../img/ROBOT-ASPIRADORA.webp" class="d-block w-100" alt="Aspiradoras">
+              </div>
+              
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
@@ -79,23 +90,28 @@
             </button>
           </div>
         </div>  
-    </main>
+      </main>
+    </div>
     <br>
-    <aside>
-        <img class="ImagenPropaganda" src="../img/FAMILY12.jpg" alt="Promocion Black Friday">
-    </aside>
-    <footer class="ColorFondoFooter">
-        <ul class="Redes">
-         <div>
-            <p class="TextredSociales">Redes sociales</p>
-            <li><a  href="https://twitter.com/" target="_blank"><img class="Twitter" src="../img/gorjeo.png" alt="Twitter"></a></li>  
-            <li><a  href="https://youtube.com/" target="_blank"><img class="Twitter" src="../img/youtube.png" alt="Twitter"></a></li>
-            <li><a  href="https://facebook.com/" target="_blank"><img class="Twitter" src="../img/facebook.png" alt="Twitter"></a></li>         
-            <li><a  href="https://www.instagram.com/" target="_blank"><img class="Instagram" src="../img/INSTA.png" alt="Instagram"></a></li>        
-            <p class="TexDerechos">©️Copyright 2022. Electronicshop. Todos los derechos reservados.</p>
-        </div>
-        </ul>      
-    </footer>
+    <div class="RespoAsideServTec">
+     <aside>
+        <img class="ImagenPropaganda" src="../img/DESCUENTO.jpg" alt="Descuento">
+     </aside>
+    </div>
+    <footer>
+      <ul class="Redes">
+          <div>
+              <p class="TextredSociales">Redes sociales</p>
+            <div class="IconosRedes">
+              <li><a  href="https://twitter.com/" target="_blank"><img class="Twitter" src="../img/gorjeo.png" alt="Twitter"></a></li>  
+              <li><a  href="https://youtube.com/" target="_blank"><img class="Twitter" src="../img/youtube.png" alt="Youtube"></a></li>
+              <li><a  href="https://facebook.com/" target="_blank"><img class="Twitter" src="../img/facebook.png" alt="Facebook"></a></li>          
+              <li><a  href="https://www.instagram.com/" target="_blank"><img class="Instagram" src="../img/INSTA.png" alt="Instagram"></a></li>        
+            </div>
+              <p class="TexDerechos">©️Copyright 2022. Electronicshop. Todos los derechos reservados.</p>
+          </div>
+      </ul>   
+   </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
