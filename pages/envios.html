@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Tienda de electrodomésticos">
   <meta name="keywords" content="Celulares, electrodomésticos, monitores, computadoras, lavarropas, heladeras, televisores.">
   <meta name="author" content="Gaston Mendiberri">
-  <title>Productos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Envios</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="shortcut icon" href="../img/LOGO1.jpg" type="image/x-icon">
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-
 </head>
+<body class="Body">
 <div class="NavEstilo">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -43,55 +43,77 @@
     </div>
   </nav>
 </div>
-<body class="Body">
+<div class="RespoHeaderEnvios">
+  <header>
+    <h1 class="Titulos">Envios por nuestra cuenta</h1>
+  </header>
+</div>
+<br>
+<div class="RespoMainEnvios">
 
-<header>
-  <h1 class="Titulos">Categorias</h1>
-</header>
+  <main>
+    <div class="Formulario">
 
-<main class="Main-Productos">
-  <div class="Caja-Producto">
-    <img class="Foto" src="../img/LAPTOP.webp" alt="Laptop Lenovo">
-    <p class="Caja-Producto-Titulo">Laptops </p>
-    <p class="Caja-Producto-Texto">Acer Lenovo HP Asus</p>
-    <a href="./envios.html" class="BTN-Productos">Comprar</a>
-  </div>
+      <div class="NombreyApellido1">
+        <input type="text" name="nombyapell" placeholder="Nombre y Apellido" required>
+      </div>
 
-  <div class="Caja-Producto">
-    <img class="Foto" src="../img/CELULAR.webp" alt="Celular Xiaomi">
-    <p class="Caja-Producto-Titulo">Celulares</p>
-    <p class="Caja-Producto-Texto">Xiaomi Samsung LG Iphone</p>
-    <a href="./envios.html" class="BTN-Productos">Comprar</a>
-  </div>
+      <div class="DNI1">
+        <input type="text" name="dni" placeholder="DNI" required>
+      </div>
 
-  <div class="Caja-Producto">
-    <img class="Foto" src="../img/TELEVISOR.webp" alt="Televisor LG">
-    <p class="Caja-Producto-Titulo">Televisores</p>
-    <p class="Caja-Producto-Texto">LG Samsung Philips Noblex</p>
-    <a href="./envios.html" class="BTN-Productos">Comprar</a>
-  </div>
+      <div class="Provincia1">
+        <input type="text" name="prov" placeholder="Provincia" required>
+      </div>
 
-  <div class="Caja-Producto">
-    <img class="Foto" src="../img/ROBOT-ASPIRADORA.webp" alt="Laptop Lenovo">
-    <p class="Caja-Producto-Titulo">Aspiradoras</p>
-    <p class="Caja-Producto-Texto">Xiaomi Rowenta Cecotec</p>
-    <a href="./envios.html" class="BTN-Productos">Comprar</a>
-  </div>
+      <div class="Domicilio1">
+        <input type="text" name="Domi" placeholder="Domicilio" required>
+      </div>
 
-  <div class="Caja-Producto">
-    <img class="Foto" src="../img/CAFETERA.webp" alt="Laptop Lenovo">
-    <p class="Caja-Producto-Titulo">Cafeteteras</p>
-    <p class="Caja-Producto-Texto">DE LONGHI Krups Philips</p>
-    <a href="./envios.html" class="BTN-Productos">Comprar</a>
-  </div>
+      <div class="Email1">
+        <input type="text" name="email" placeholder="Email" required>
+      </div>
 
-  <div class="Caja-Producto">
-    <img class="Foto" src="../img/LAVARROPAS.webp" alt="Laptop Lenovo">
-    <p class="Caja-Producto-Titulo">Lavarropas</p>
-    <p class="Caja-Producto-Texto">Samsung LG Whirlpool</p>
-    <a href="./envios.html" class="BTN-Productos">Comprar</a>
-  </div>
-</main>
+      <div class="Telefono1">
+        <input type="text" name="Tel" placeholder="Numero de telefono" required>
+      </div>
+
+      <div class="CodigoPostal1">
+        <input type="text" name="CP" placeholder="Codigo postal" required>
+      </div>
+
+      <div class="mensaje1">
+        <textarea name="mensaje" placeholder="Ingrese un mensaje"></textarea>
+      </div>
+
+      <div class="Enviar">
+        <input class="BTN-Envios" type="submit" value="Enviar">
+      </div>
+    </div>
+  </main>
+</div>
+
+<div class="RespoMainEnvios">
+  <aside>
+    <h2 class="OcaCorreo">Tambien trabajamos con "OCA Correo"</h2>
+    <div class="OCA-IMG">
+      <img src="../img/LOGO OCA ENVIO.jpg" alt="logo oca envio">
+    </div>
+    <h2 class="Enlace-Envio">Enlace pagina de envio</h2>
+    <br>
+    <div class="Enlace-OCA">
+      <li><a href="https://www.oca.com.ar/" target="_blank"><img src="../img/OCA LOGO.png"></a></li>
+    </div>
+    <br>
+    <h2 class="ComoUsarOca"> Como usar la plataforma de Oca Correo</h2>
+    <div class="Enlace-Youtube">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/lKsWfJSKW_U" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+    </div>
+  </aside>
+</div>
 
 <footer>
   <ul class="Redes">
@@ -111,6 +133,7 @@
     </div>
   </ul>
 </footer>
+</div>
 <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
