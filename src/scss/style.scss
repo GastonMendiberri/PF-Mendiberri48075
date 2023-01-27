@@ -1,0 +1,415 @@
+/*# sourceMappingURL=style.css.map */
+
+$fuenteTitulos: 50px 'Open sans';
+$colorLetra: #F4F6F6;
+
+$colores: (
+        crema: #F6FAFA,
+        blanco:  $colorLetra
+); 
+
+@each $color, $codigo in $colores {
+   .titulo-#{$color} {
+       color: $codigo;
+   }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*GENERALES*/
+
+.LogoNav{
+    padding: 20px;
+}
+
+.Logo{
+    width: 100px;
+    border-radius: 50px;
+}
+  
+.NavEstilo{
+    border-bottom: 1px solid $colorLetra;
+}
+
+.titulo-blanco{
+    
+    font: $fuenteTitulos;
+    text-align: center;
+}
+
+.titulo-crema{
+    padding: 10px;
+    font: $fuenteTitulos;
+    text-align: center;
+}
+
+.Subtitulos{
+    padding: 10px;
+    color: $colorLetra;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Body{
+    padding: 60px;   
+    background-color: #2874A6 ;
+}
+
+.ImagenPropaganda{
+    padding: 30px;
+    width: 100%;
+	height: 600px;
+}
+
+@media (max-width: 1500px) {
+  .ImagenPropaganda {
+    height: auto;
+  }
+}
+
+.TextredSociales{
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 30px;
+    color: $colorLetra;
+}
+
+.TexDerechos{
+    text-align: center;
+    font-weight: bolder;
+    padding: 8px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: $colorLetra;
+    
+}
+
+.Red{
+        width: 32px;
+    }
+    
+.Redes{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.IconosRedes{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+/*INICIO*/
+
+.InicioFlex{
+    display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.InicioFlex-item-izq{
+	flex: 25%;
+}
+
+.InicioFlex-item-medizq{
+	flex: 25%;
+}
+
+.InicioFlex-item-medder{
+	flex: 25%;
+}
+
+.InicioFlex-item-der{
+	flex: 25%;
+}
+@media (max-width: 800px) {
+  .InicioFlex {
+    flex-direction: column;
+  }
+}
+
+.ImgOferta1{
+    width: 350px;
+    border: solid 2px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    color: $colorLetra;
+}
+
+@media (max-width: 500px) {
+    .ImgOferta1 {
+      width: 200px;
+    }
+
+    .titulo-blanco {
+        font-size: 26px;
+    }
+
+    .titulo-crema {
+        font-size: 26px;
+    }
+
+    .AteCliente {
+        font-size: 20px;
+    }
+
+    .Subtitulos {
+        font-size: 20px;
+    }
+
+    .TextredSociales {
+        font-size: 15px;
+    }
+
+    .TexDerechos {
+        font-size: 15px;
+    }
+
+    .Texto {
+        font-size: 15px;
+    }
+
+    .Logo{
+        width: 40px;
+        border-radius: 25px;
+    }
+  }
+
+.Hover:hover{
+    filter: opacity(.5);
+}
+
+/*PRODUCTOS*/
+
+.Main-Productos{
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+}
+
+.Caja-Producto{
+    width: 25%;
+    border: solid 2px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: $colorLetra;
+}
+
+@media (max-width: 630px) {
+    .Caja-Producto{
+        width: 100%;
+        border: solid 2px;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        color: $colorLetra;
+    }
+}
+
+.Caja-Producto-Titulo{
+	font-size: 22px;
+}
+
+@media (max-width: 1000px) {
+  .Caja-Producto-Titulo {
+    font-size: 20px;
+  }
+
+  .Caja-Producto-Texto {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Caja-Producto-Titulo {
+    font-size: 16px;
+  }
+  
+  .Caja-Producto-Texto {
+    font-size: 9px;
+  }
+}
+
+.Caja-Producto-Texto{
+	font-size: 17px;
+}
+
+.Foto{
+  width: 90%;
+  text-align: center;
+}
+
+.BTN-Productos{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    text-decoration: none;
+    border: solid;
+    border-radius: 5px;
+    background-color: #2874A6;
+    color: $colorLetra;
+}
+
+
+/*SERV. TECNICO*/
+
+.BarraCompletar{
+    padding: 5px;
+    text-align: center;
+}
+
+.BTN-Consultar{
+    width: 100px;
+    font-size: 18px;
+    border-style: solid;
+}
+
+.AteCliente{
+    padding: 5px;
+    text-align: center;
+    color: $colorLetra
+}
+
+.DiasHorarios{
+    padding: 5px;
+    text-align: center;
+    color: $colorLetra
+}
+
+.RespoMainSerTec{
+    padding: 10px;
+    text-align: center;
+}
+
+.MainServTec{
+    width: 100%;
+    text-align: center;
+}
+/*UBICACION*/
+
+.Locales{
+    padding: 10px;
+    text-align: center;
+    color: $colorLetra;
+}
+
+.google-maps {
+  position: relative;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 20%;
+  overflow: hidden;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+
+/*ENVIOS*/
+
+.Formulario{
+  	box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 850px) {
+  .Formulario {
+	  grid-template-columns: repeat(2, 1fr);
+  }
+  .Enviar {
+  	margin-left: 75%;
+  }
+}
+
+@media (max-width: 700px) {   
+    .Enlace-Youtube{
+        text-align: center;
+        width: 230px;
+    }
+}
+
+@media (max-width: 450px) {
+    .OCA-IMG{
+        width: 200px;
+    }
+
+    .OCA-LOGO{
+        width: 90px;
+    }
+}
+
+@media (max-width: 600px) {
+  .Formulario {
+	grid-template-columns: repeat(1, 1fr);
+  }
+  .Enviar {
+    margin-left: 5%;
+  }
+}
+
+.Enlace-Youtube{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.BTN-Envios{
+    width: 185px;
+    padding: 10px;
+    font-size: 20px; 
+}
+
+.OCA-IMG-CONTAINER{
+    padding: 10px;
+    text-align: center;
+}
+
+.OcaCorreo{
+    padding: 10px;
+    text-align: center;
+    color: $colorLetra;
+}
+
+.ComoUsarOca{
+    padding: 10px;
+    text-align: center;
+    color: $colorLetra;
+}
+
+.Enlace-Envio{
+    padding: 10px;
+    text-align: center;
+    color: $colorLetra;
+}
+
+.Enlace-OCA{
+    text-align: center;
+    list-style-type: none;
+    
+}
